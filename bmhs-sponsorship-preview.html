@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sponsor the BMHS Marching Bears — 2026-2027 Season</title>
+<meta name="description" content="Sponsorship opportunities with the Bradshaw Mountain High School Marching Band & Guard, Prescott Valley, AZ.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+:root {
+  --ink: #15171c;
+  --paper: #f6f4ef;
+  --crimson: #a81f35;
+  --crimson-dim: #7d1727;
+  --brass: #c9a227;
+  --brass-light: #e8cd7a;
+  --slate: #565a63;
+  --slate-light: #9a9ea6;
+  --line: rgba(21, 23, 28, 0.12);
+  --line-light: rgba(246, 244, 239, 0.18);
+
+  --display: 'Bebas Neue', 'Arial Narrow', sans-serif;
+  --body: 'Inter', -apple-system, sans-serif;
+  --mono: 'IBM Plex Mono', 'SF Mono', monospace;
+
+  --max: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+body {
+  margin: 0;
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+img { max-width: 100%; display: block; }
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ---------- Utility type styles ---------- */
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
+h1, h2, h3 {
+  font-family: var(--display);
+  letter-spacing: 0.01em;
+  margin: 0;
+  line-height: 0.98;
+}
+
+/* ---------- Header / nav ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(21, 23, 28, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.brand .brand-mark {
+  width: 10px;
+  height: 10px;
+  background: var(--crimson);
+  border-radius: 2px;
+  transform: rotate(45deg);
+  flex: none;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 28px;
+}
+
+.site-header nav a {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--slate-light);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible { color: #fff; }
+
+.header-cta {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink) !important;
+  background: var(--brass);
+  padding: 9px 16px;
+  border-radius: 3px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-cta:hover { background: var(--brass-light); }
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  background: var(--ink);
+  color: #fff;
+  overflow: hidden;
+  padding: 96px 0 88px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0, transparent 78px, rgba(255,255,255,0.055) 78px, rgba(255,255,255,0.055) 80px),
+    repeating-linear-gradient(0deg, transparent 0, transparent 40px, rgba(255,255,255,0.03) 40px, rgba(255,255,255,0.03) 41px);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 220px;
+  background: radial-gradient(60% 100% at 50% 100%, rgba(168,31,53,0.35), transparent 70%);
+  pointer-events: none;
+}
+
+.hero .wrap { position: relative; z-index: 2; }
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.hero-eyebrow .rule { width: 28px; height: 2px; background: var(--brass); }
+
+.hero h1 {
+  font-size: clamp(48px, 8vw, 104px);
+  max-width: 15ch;
+}
+
+.hero h1 .accent { color: var(--brass); }
+
+.hero-sub {
+  font-family: var(--body);
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.72);
+  max-width: 48ch;
+  margin-top: 26px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 15px 26px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-primary { background: var(--crimson); color: #fff; }
+.btn-primary:hover { background: #c22540; transform: translateY(-1px); }
+
+.btn-ghost { border-color: rgba(255,255,255,0.28); color: #fff; }
+.btn-ghost:hover { border-color: #fff; }
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(255,255,255,0.14);
+  margin-top: 72px;
+  border-top: 1px solid rgba(255,255,255,0.14);
+}
+
+.stat {
+  background: var(--ink);
+  padding: 26px 10px 4px;
+}
+
+.stat .num {
+  font-family: var(--display);
+  font-size: clamp(26px, 3.2vw, 38px);
+  color: var(--brass-light);
+}
+
+.stat .label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--slate-light);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+/* ---------- Section shared ---------- */
+
+section { padding: 96px 0; }
+
+.section-head {
+  max-width: 640px;
+  margin-bottom: 56px;
+}
+
+.section-head h2 {
+  font-size: clamp(34px, 4.5vw, 52px);
+  margin-top: 14px;
+}
+
+.section-head p {
+  font-family: var(--body);
+  font-size: 17px;
+  color: var(--slate);
+  line-height: 1.65;
+  margin-top: 18px;
+}
+
+/* ---------- Why sponsor ---------- */
+
+.why-section {
+  background: var(--paper);
+  color: var(--ink);
+  position: relative;
+}
+
+.why-section .eyebrow { color: var(--crimson); }
+.why-section .section-head h2 { color: var(--ink); }
+
+.why-lead {
+  font-family: var(--body);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.55;
+  margin-top: 18px;
+  border-left: 3px solid var(--crimson);
+  padding-left: 20px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.why-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 28px 26px;
+  box-shadow: 0 2px 10px rgba(21,23,28,0.04);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.why-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--crimson);
+  box-shadow: 0 12px 28px rgba(21,23,28,0.1);
+}
+
+.why-item .mark {
+  font-family: var(--display);
+  font-size: 30px;
+  color: var(--crimson);
+  letter-spacing: 0.03em;
+}
+
+.why-item h3 {
+  font-family: var(--body);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--ink);
+  margin-top: 12px;
+}
+
+.why-item p {
+  font-family: var(--body);
+  font-size: 15.5px;
+  color: var(--slate);
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* ---------- Tier field (signature element) ---------- */
+
+.field-section {
+  background: var(--ink);
+  color: #fff;
+  position: relative;
+}
+
+.field-section .section-head p { color: rgba(255,255,255,0.65); }
+.field-section .section-head .eyebrow { color: var(--brass-light); }
+.field-section .section-head h2 { color: #fff; }
+
+.yard-rail {
+  position: relative;
+  height: 3px;
+  background: rgba(255,255,255,0.16);
+  margin: 0 0 0;
+  border-radius: 2px;
+}
+
+.yard-rail::before,
+.yard-rail::after { content: none; }
+
+.tier-track {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 46px;
+}
+
+.tier-card {
+  position: relative;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 10px;
+  padding: 30px 22px 26px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tier-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 5px;
+  background: var(--tier-color, var(--brass));
+}
+
+.tier-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--tier-color, var(--brass));
+  background: rgba(255,255,255,0.07);
+  box-shadow: 0 16px 40px -12px rgba(0,0,0,0.55);
+}
+
+.tier-cta {
+  margin-top: 24px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--tier-color, var(--brass));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.tier-card:hover .tier-cta { filter: brightness(1.1); transform: translateY(-1px); }
+
+.tier-yard {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--slate-light);
+}
+
+.tier-name {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 26px;
+  color: var(--tier-color, var(--brass));
+  background: color-mix(in srgb, var(--tier-color, var(--brass)) 16%, transparent);
+  border: 1px solid var(--tier-color, var(--brass));
+  border-radius: 999px;
+  padding: 4px 18px;
+  margin-top: 12px;
+  letter-spacing: 0.03em;
+}
+
+.tier-price {
+  font-family: var(--mono);
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.tier-price span {
+  font-size: 13px;
+  color: var(--slate-light);
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.tier-list {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.tier-list li {
+  font-family: var(--body);
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: rgba(255,255,255,0.82);
+  padding-left: 16px;
+  position: relative;
+}
+
+.tier-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  background: var(--tier-color, var(--brass));
+  border-radius: 1px;
+}
+
+.tier-card[data-tier="bronze"] { --tier-color: #cf9f5f; background: rgba(207, 159, 95, 0.06); }
+.tier-card[data-tier="silver"] { --tier-color: #d7dce6; background: rgba(215, 220, 230, 0.06); }
+.tier-card[data-tier="gold"] { --tier-color: var(--brass); background: rgba(201, 162, 39, 0.08); }
+.tier-card[data-tier="platinum"] {
+  --tier-color: var(--brass-light);
+  background: rgba(232, 205, 122, 0.1);
+  border-color: rgba(232, 205, 122, 0.4);
+}
+
+.tier-foot-note {
+  margin-top: 34px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--slate-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tier-foot-note .dot {
+  width: 6px; height: 6px; background: var(--crimson); border-radius: 50%;
+  flex: none;
+}
+
+/* ---------- Championship callout ---------- */
+
+.callout {
+  background: var(--crimson);
+  color: #fff;
+  border-radius: 10px;
+  padding: 52px 48px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.callout h2 {
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.02;
+}
+
+.callout p {
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.88);
+  margin-top: 18px;
+  max-width: 46ch;
+}
+
+.callout-stats {
+  display: grid;
+  gap: 18px;
+}
+
+.callout-stat {
+  background: rgba(0,0,0,0.14);
+  border-radius: 6px;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.callout-stat .k {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.72);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.callout-stat .v {
+  font-family: var(--display);
+  font-size: 26px;
+  color: var(--brass-light);
+}
+
+.btn-championship {
+  background: var(--brass-light);
+  color: var(--ink);
+  font-size: 15px;
+  padding: 18px 32px;
+  margin-top: 30px;
+  border-radius: 6px;
+  box-shadow: 0 12px 30px -8px rgba(0,0,0,0.45);
+}
+
+.btn-championship:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+/* ---------- Contact ---------- */
+
+.contact {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.contact-card {
+  background: var(--ink);
+  color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.contact-card .eyebrow { color: var(--brass-light); margin-bottom: 16px; display: block; }
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  font-family: var(--body);
+}
+
+.contact-row:last-child { border-bottom: none; }
+
+.contact-row .k { font-size: 13px; color: var(--slate-light); }
+.contact-row .v { font-size: 16px; font-weight: 600; }
+.contact-row .v a { text-decoration: none; color: var(--brass-light); }
+
+.pay-card {
+  background: var(--ink);
+  color: #fff;
+  border-radius: 10px;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pay-card h3 {
+  font-family: var(--display);
+  font-size: 26px;
+  color: #fff;
+  margin-top: 14px;
+  letter-spacing: 0.02em;
+}
+
+.pay-card p {
+  font-family: var(--body);
+  font-size: 14.5px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.pay-card-btn { margin-top: 22px; }
+
+/* ---------- Footer ---------- */
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 36px 0;
+}
+
+footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+footer .foot-left {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--slate);
+  letter-spacing: 0.03em;
+}
+
+footer .foot-tag {
+  font-family: var(--display);
+  font-size: 16px;
+  color: var(--ink);
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Scroll reveal ---------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .why-grid { grid-template-columns: 1fr; gap: 16px; }
+  .tier-track { grid-template-columns: repeat(2, 1fr); }
+  .callout { grid-template-columns: 1fr; padding: 36px 26px; }
+  .contact { grid-template-columns: 1fr; }
+  .stat-row { grid-template-columns: 1fr 1fr; gap: 1px; }
+  .site-header nav { display: none; }
+}
+
+@media (max-width: 560px) {
+  .tier-track { grid-template-columns: 1fr; }
+  .hero { padding: 72px 0 64px; }
+  section { padding: 68px 0; }
+  .wrap { padding: 0 20px; }
+}
+
+/* Focus visibility */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand"><span class="brand-mark"></span>BMHS BEARS</a>
+    <nav>
+      <a href="#why">Why Sponsor</a>
+      <a href="#tiers">Tiers</a>
+      <a href="#championship">Regionals</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">Become a Sponsor</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-eyebrow">
+      <span class="rule"></span>
+      <span class="eyebrow">2026 – 2027 Season &nbsp;·&nbsp; "Just Fantasy"</span>
+    </div>
+    <h1>Your business,<br>on the <span class="accent">50-yard line</span><br>of Prescott Valley.</h1>
+    <p class="hero-sub">
+      The Bradshaw Mountain Marching Bears Band &amp; Guard is one of the largest programs on campus.
+      Partner with us and your name travels with the band all season long, from every home
+      football game to the AZMBA Northern Regional Competition we're hosting this October.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">Sponsor Now</a>
+      <a class="btn btn-ghost" href="#tiers">See Tier Options</a>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">60+</div>
+        <div class="label">Students in the Program</div>
+      </div>
+      <div class="stat">
+        <div class="num">10+</div>
+        <div class="label">Public Events Per Season</div>
+      </div>
+      <div class="stat">
+        <div class="num">650+</div>
+        <div class="label">Attendees at Regionals, Students, Friends &amp; Family</div>
+      </div>
+      <div class="stat">
+        <div class="num">Oct 24</div>
+        <div class="label">BMHS Hosts AZMBA Northern Regionals</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="why-section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Sponsor</span>
+      <h2>Local visibility, on repeat.</h2>
+      <p class="why-lead">A single sponsorship keeps your name in front of the same families all season,
+        at every home football game, competitions across the state, and many local performances.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="mark">01</div>
+        <h3>Consistent exposure</h3>
+        <p>Your logo travels on the band trailer to every home football game, competition, and
+          performance, not just a single event.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="mark">02</div>
+        <h3>A community-first program</h3>
+        <p>Band &amp; Guard is one of the largest, most visible student programs at BMHS,
+          representing Prescott Valley across the state.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="mark">03</div>
+        <h3>Direct to families</h3>
+        <p>Sponsors are recognized in show programs, concerts, and banquets, in front of
+          the parents and families who make up your customer base.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="mark">04</div>
+        <h3>A smart marketing move</h3>
+        <p>It's an affordable way to get your business seen throughout the community, while
+          directly helping local students grow into tomorrow's leaders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="field-section" id="tiers">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Sponsorship Tiers</span>
+      <h2>Four ways onto the field.</h2>
+      <p>Every tier includes recognition in our show, concert, and banquet programs.
+        Trailer sponsorships (Silver and above) are due <strong>September 1st</strong>.</p>
+    </div>
+
+    <div class="yard-rail" aria-hidden="true"></div>
+
+    <div class="tier-track">
+
+      <a class="tier-card reveal" data-tier="bronze" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">
+        <div class="tier-yard">ENTRY LEVEL</div>
+        <div class="tier-name">Bronze</div>
+        <div class="tier-price">$50</div>
+        <ul class="tier-list">
+          <li>Name on sponsor banner (30-character limit)</li>
+          <li>Recognition in show, concert &amp; banquet programs</li>
+        </ul>
+        <span class="tier-cta">Sponsor This Tier →</span>
+      </a>
+
+      <a class="tier-card reveal" data-tier="silver" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">
+        <div class="tier-yard">ON THE TRAILER</div>
+        <div class="tier-name">Silver</div>
+        <div class="tier-price">$250</div>
+        <ul class="tier-list">
+          <li>9" × 24" logo on the band trailer</li>
+          <li>One social media shoutout</li>
+          <li>Logo on sponsor banner</li>
+          <li>Recognition in show, concert &amp; banquet programs</li>
+        </ul>
+        <span class="tier-cta">Sponsor This Tier →</span>
+      </a>
+
+      <a class="tier-card reveal" data-tier="gold" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">
+        <div class="tier-yard">FAN FAVORITE</div>
+        <div class="tier-name">Gold</div>
+        <div class="tier-price">$500</div>
+        <ul class="tier-list">
+          <li>12" × 24" logo on the band trailer</li>
+          <li>Two social media shoutouts</li>
+          <li>Framed recognition certificate</li>
+          <li>Logo on sponsor banner</li>
+          <li>Logo in show, concert &amp; banquet programs</li>
+        </ul>
+        <span class="tier-cta">Sponsor This Tier →</span>
+      </a>
+
+      <a class="tier-card reveal" data-tier="platinum" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">
+        <div class="tier-yard">50-YARD LINE</div>
+        <div class="tier-name">Platinum</div>
+        <div class="tier-price">$1,000</div>
+        <ul class="tier-list">
+          <li>18" × 24" logo on the band trailer</li>
+          <li>Four social media shoutouts</li>
+          <li>Half-time shoutout at a home football game</li>
+          <li>Framed recognition certificate</li>
+          <li>BMHS Band t-shirt</li>
+          <li>Logo on sponsor banner &amp; in every program</li>
+        </ul>
+        <span class="tier-cta">Sponsor This Tier →</span>
+      </a>
+
+    </div>
+
+    <div class="tier-foot-note reveal">
+      <span class="dot"></span>
+      Trailer sponsor payment and logo files are due September 1, 2026.
+    </div>
+  </div>
+</section>
+
+<section id="championship">
+  <div class="wrap">
+    <div class="callout reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.75)">One-Time Opportunity</span>
+        <h2>Bradshaw Mountain High School is hosting the AZMBA Northern Regional Competition.</h2>
+        <p>October 24th, 2026 &mdash; our home field, our community, and one of the biggest
+          band days Prescott Valley sees all year. Hosting takes real support, and
+          gives sponsors a rare shot at visibility in front of 10 competing bands
+          and their families from across the region. It's a high-visibility way to
+          market your business locally while helping fund a program that builds
+          tomorrow's leaders.</p>
+        <a class="btn btn-championship" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">Sponsor the Competition →</a>
+      </div>
+      <div class="callout-stats">
+        <div class="callout-stat">
+          <span class="k">Date</span>
+          <span class="v">Oct 24</span>
+        </div>
+        <div class="callout-stat">
+          <span class="k">Bands Attending</span>
+          <span class="v">10+</span>
+        </div>
+        <div class="callout-stat">
+          <span class="k">Hosted At</span>
+          <span class="v">BMHS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Let's Talk</span>
+      <h2>Ready to sponsor the Bears?</h2>
+      <p>Reach out directly and we'll walk you through tiers, deadlines, and what
+        your logo placement looks like this season.</p>
+    </div>
+
+    <div class="contact reveal">
+      <div class="contact-card">
+        <span class="eyebrow">Contact</span>
+        <div class="contact-row">
+          <span class="k">Email</span>
+          <span class="v"><a href="mailto:bradshawmarching@gmail.com">bradshawmarching@gmail.com</a></span>
+        </div>
+        <div class="contact-row">
+          <span class="k">Program Site</span>
+          <span class="v"><a href="https://bmhsband.netlify.app" target="_blank" rel="noopener">bmhsband.netlify.app</a></span>
+        </div>
+        <div class="contact-row">
+          <span class="k">Location</span>
+          <span class="v">Prescott Valley, AZ</span>
+        </div>
+        <div class="contact-row">
+          <span class="k">Trailer Sponsor Deadline</span>
+          <span class="v">Sept 1, 2026</span>
+        </div>
+      </div>
+
+      <div class="pay-card">
+        <span class="eyebrow" style="color:var(--brass)">Ready Now?</span>
+        <h3>Sponsor the Bears today</h3>
+        <p>Pick a tier and pay securely online. It takes about two minutes.</p>
+        <a class="btn btn-primary pay-card-btn" href="https://www.zeffy.com/en-US/donation-form/band-sponsorships" target="_blank" rel="noopener">Sponsor Now →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-tag">BMHS BAND &amp; GUARD PTO</span>
+    <span class="foot-left">Prescott Valley, AZ</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window) || !els.length) {
+    els.forEach(function (el) { el.classList.add('is-visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  els.forEach(function (el) { io.observe(el); });
+})();
+
+</script>
+</body>
+</html>
