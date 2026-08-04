@@ -765,16 +765,20 @@ footer .foot-tag {
     gap: 0;
     width: 100%;
     order: 3;
-    border-top: 1px solid rgba(255,255,255,0.14);
+    background: #0e0f13;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 8px;
     margin-top: 14px;
-    padding-top: 10px;
+    padding: 6px 14px;
   }
   .site-header.nav-open nav { display: flex; }
   .site-header nav a {
-    padding: 12px 4px;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    font-size: 13px;
+    padding: 14px 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 13.5px;
+    color: #fff;
   }
+  .site-header nav a:last-child { border-bottom: none; }
 }
 
 @media (max-width: 560px) {
