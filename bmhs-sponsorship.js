@@ -15,3 +15,22 @@
 
   els.forEach(function (el) { io.observe(el); });
 })();
+
+(function () {
+  var header = document.querySelector('.site-header');
+  var toggle = document.querySelector('.nav-toggle');
+  if (!header || !toggle) return;
+
+  toggle.addEventListener('click', function () {
+    var isOpen = header.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  // Close the menu after tapping a nav link
+  header.querySelectorAll('nav a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      header.classList.remove('nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
